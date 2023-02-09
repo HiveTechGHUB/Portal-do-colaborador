@@ -1,0 +1,3 @@
+FUNCTION-POOL ZAH_ABSTENCE_TYPES_GF.        "MESSAGE-ID ..
+
+* INCLUDE LZAH_ABSTENCE_TYPES_GFD...         " Local class definition

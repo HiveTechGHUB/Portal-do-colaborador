@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo de funçoes foto dos colaboradores</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_PHOTO_EMP_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_PHOTO_EMP_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_PHOTO_EMP_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Web service retorna fotos dos colaboradores</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_NUM_EMP</PARAMETER>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PHOTO_EMP</PARAMETER>
+       <TYP>ZAH_TT_PHOTO_EMP</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NUM_EMP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PHOTO_EMP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de tabela para exportação fotos do colaborador</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

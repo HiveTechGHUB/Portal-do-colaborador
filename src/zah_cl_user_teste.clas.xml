@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_USER_TESTE</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para o desenvolvimento do perfil de colaborador</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Construtor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_BNKA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_LANGUAGE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0009 (Dados bancários)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0001</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR: infotipo 0001 (atrib.org.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0002</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0002 (Dados pessoais)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0006</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0006 (Endereços)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0009</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0009 (Dados bancários)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0016</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0016 (Elementos do contrato)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0021</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0021 (Família)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0105</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0105 (comunicações)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PA0185</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR: infotipo 0185 [identificação] (UG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_T005T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Denominação dos países</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_T502T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Denominações estado civil</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_T513S</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Denominação de cargo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_T528T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Textos de posições</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INFTY_DATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para a recolha de dados dos infotipos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TABLE_DESCRIPTIONS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para a recolha das tabelas de descrições</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_BNKA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_DESCRIPTION_TABLES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela para a recolha de nomes de tabelas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_INFOTYPES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela utilizado para a recolha de infotipos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_P0001</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela para a pa0001</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_P0002</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela para a recolha de dados do infotipo 0002</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T005T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T502T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T513S</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T528T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Mestre de bancos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ALL_METHODS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura dos métodos necessários</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0001</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0002</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0002</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0006</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0006</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0009</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0009</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0016</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0016</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0021</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0021</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0105</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0105</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0185</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Leitura de dados especificos do infotipo 0185</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFTY_DATA</CMPNAME>
+     <SCONAME>EXP_PERFIL_COLAB</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela com a estrutura do perfil de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFTY_DATA</CMPNAME>
+     <SCONAME>IMP_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_ALL_METHODS</CMPNAME>
+     <SCONAME>EXP_PERFIL_COLAB</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para o perfil do colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_ALL_METHODS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <SCONAME>IT_PA0001</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR: infotipo 0001 (atrib.org.)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0001</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0001</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0002</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0002</CMPNAME>
+     <SCONAME>IT_PA0002</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0002 (Dados pessoais)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0002</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0002</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0001</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0006</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0006</CMPNAME>
+     <SCONAME>IT_PA0006</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0006 (Endereços)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0006</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0006</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0006</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0009</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0009</CMPNAME>
+     <SCONAME>IT_PA0009</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0009 (Dados bancários)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0009</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0009</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0009</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0016</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0016</CMPNAME>
+     <SCONAME>IT_PA0016</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0016 (Elementos do contrato)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0016</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0016</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0016</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0021</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0021</CMPNAME>
+     <SCONAME>IT_PA0021</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0021 (Família)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0021</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0021</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0021</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0105</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0105</CMPNAME>
+     <SCONAME>IT_PA0105</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR infotipo 0105 (comunicações)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0105</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0105</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0105</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0185</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0185</CMPNAME>
+     <SCONAME>IT_PA0185</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Relevante só para Cingapura</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0185</CMPNAME>
+     <SCONAME>ZAH_S_PERFIL_PA0185</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para a recolha de dados especificos para a PA0185</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

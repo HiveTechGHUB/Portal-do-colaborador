@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>GF - Tipos de Ausências</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_GF_TIPOS_AUSENCIASTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_GF_TIPOS_AUSENCIAS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_TIPOS_AUSENCIAS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Recolha dos tipos de ausências dos colaboradores</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

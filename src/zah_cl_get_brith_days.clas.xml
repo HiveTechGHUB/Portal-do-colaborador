@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_GET_BRITH_DAYS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>classe serviço get dias de aniversario</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BIRTH_DAYS</CMPNAME>
+     <SCONAME>ET_BRITH_DAYS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela importação/exportaçao datas de aniversario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BIRTH_DAYS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

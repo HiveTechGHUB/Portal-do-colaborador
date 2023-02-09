@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Perfil do colaborador - FULL - estrutura</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_USER_PROFILE_FULLTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_USER_PROFILE_FULL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_USER_PROFILE_FULL</FUNCNAME>
+     <SHORT_TEXT>ZAH_USER_PROFILE_FULL - Estruturas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_NUM_COL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0001</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0001_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0002</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0002_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0006</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0006_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0009</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0009_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0016</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0016_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0021</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0021_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0105</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0105_FULL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PA0185</PARAMETER>
+       <TYP>ZAH_TT_PERFIL_PA0185_FULL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NUM_COL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha dos respetivos dados do infotipo 0001</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0002</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos para o infotipo 0002</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0006</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0006</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0009</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0009</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0016</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0016</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0021</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0021</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0105</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0105</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PA0185</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Recolha de dados especificos do infotipo 0185</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

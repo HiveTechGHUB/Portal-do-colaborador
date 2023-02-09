@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_CONT_AUSENCIAS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para obter os contingentes de ausência para o portal</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_COD_PT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código de idioma</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COLAB_CONTINGENTE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recolhe os contingentes de ausência do infotipo 2006</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONT_AUSENCIAS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem os contingentes de ausência dos colaboradores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_T001P</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Áreas/subáreas HR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_T503</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Grp./subgrp.empregados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_T538T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Textos unidades tempo/medidas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_T556A</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de contingente de ausências</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_T556B</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Textos do tipo de contigente de ausências</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T001P</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para Áreas/subáreas HR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T503</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para Grp./subgrp.empregados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T538T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para textos de unidades de tempo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T556A</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para tipo de contingente de ausências</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T556B</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para textos do tipo de contingente de ausência</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Lê o infotipo 0001 (Atribuição Organizacional)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_CONTINGENTE</CMPNAME>
+     <SCONAME>ET_CONT_AUSENCIAS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para retorno dos contingentes de ausência</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_CONTINGENTE</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONT_AUSENCIAS</CMPNAME>
+     <SCONAME>CT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONT_AUSENCIAS</CMPNAME>
+     <SCONAME>ET_CONT_AUSENCIAS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para retorno dos contingentes de ausência</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <SCONAME>ES_INFTY_0001</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR: infotipo 0001 (atrib.org.)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_INFTY_0001</CMPNAME>
+     <SCONAME>IV_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº pessoal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

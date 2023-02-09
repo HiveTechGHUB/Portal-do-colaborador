@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo funçoes lista perfis de projetos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_PROJECT_PROFILES_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_PROJECT_PROFILES_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_PROJECT_PROFILES_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web service lista perfis de projetos</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PROJECT_PROFILES</PARAMETER>
+       <TYP>ZAH_TT_PROJECT_PROFILES_LIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_PROJECT_PROFILES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela lista de perfis de projetos CATS</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

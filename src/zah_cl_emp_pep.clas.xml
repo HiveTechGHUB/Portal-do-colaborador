@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_EMP_PEP</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para obter o codigo PEP do colaborador</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_PEP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obter o PEP códigp de 3 digitos do PEP do colab colab</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_PEP</CMPNAME>
+     <SCONAME>EX_EMP_PEP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para retorno do PEP do colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_PEP</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
