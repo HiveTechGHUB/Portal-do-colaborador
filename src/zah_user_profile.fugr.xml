@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo função para o perfil de utilizador</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_USER_PROFILETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_USER_PROFILE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_USER_PROFILE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Perfil do Colaborador</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_NUM_COL</PARAMETER>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PROFILES</PARAMETER>
+       <TYP>ZAH_TT_USER_PROFILE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NUM_COL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PROFILES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabela com a estrutura do perfil de colaborador</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

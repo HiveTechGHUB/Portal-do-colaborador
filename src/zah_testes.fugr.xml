@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>RFC para testes</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_TESTESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_TESTES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_TESTES</FUNCNAME>
+     <SHORT_TEXT>RFC para testes</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IMP_NUM_COL</PARAMETER>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>NUM_COLABS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>NON_EXISTING_COLABS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>NON_ACTIVE_COLABS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_USER_PROFILES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_USER_PROFILE</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EXP_PA0002</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZAH_TT_PA0002</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IMP_NUM_COL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM_COLABS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NON_EXISTING_COLABS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NON_ACTIVE_COLABS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_USER_PROFILES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabela com a estrutura do perfil de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXP_PA0002</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabela para a recolha de dados do infotipo 0002</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

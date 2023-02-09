@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo funçoes lista tipos de projetos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_PROJECT_TYPES_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_PROJECT_TYPES_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_PROJECT_TYPES_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web service lista tipos de projetos</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PROJECT_TYPES</PARAMETER>
+       <TYP>ZAH_TT_PROJECT_TYPES_LIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_PROJECT_TYPES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela lista de tipos de projetos CATS</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

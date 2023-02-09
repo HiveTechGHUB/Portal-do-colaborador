@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_GET_MISSING_HOURS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>classe com metodos para o serviço de get horas em falta</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DAYS_MISSING_HOURS</CMPNAME>
+     <SCONAME>ET_DAYS_MISSING_HOURS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela exportação dias e respetivas horas em falta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DAYS_MISSING_HOURS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFO_HOURS</CMPNAME>
+     <SCONAME>ET_INFO_CATS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela recolher informaçao da tabela CATSDB (horas)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFO_HOURS</CMPNAME>
+     <SCONAME>IT_COMP_EMPS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para recolher a empresa de cada colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFO_HOURS</CMPNAME>
+     <SCONAME>IV_FIRST_DATE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo do sistema ABAP: data atual do servidor de aplicação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INFO_HOURS</CMPNAME>
+     <SCONAME>IV_LAST_DATE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo do sistema ABAP: data atual do servidor de aplicação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MISSING_HOURS</CMPNAME>
+     <SCONAME>ET_MISSING_HOURS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela exportação horas que faltam marcar ao colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MISSING_HOURS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RECORDED_HOURS</CMPNAME>
+     <SCONAME>ET_RECORDED_HOURS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo tabela recolher horas marcadas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RECORDED_HOURS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_THEORIC_HOURS</CMPNAME>
+     <SCONAME>ET_THEORIC_HOURS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Horas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_THEORIC_HOURS</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº pessoal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

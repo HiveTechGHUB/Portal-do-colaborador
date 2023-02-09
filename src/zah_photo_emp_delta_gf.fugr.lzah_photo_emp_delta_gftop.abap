@@ -1,0 +1,3 @@
+FUNCTION-POOL ZAH_PHOTO_EMP_DELTA_GF.       "MESSAGE-ID ..
+
+* INCLUDE LZAH_PHOTO_EMP_DELTA_GFD...        " Local class definition

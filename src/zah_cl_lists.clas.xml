@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_LISTS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>classe listas Presentes no cats</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ABSTENCE_TYPES_LIST</CMPNAME>
+     <SCONAME>ET_ABSTENCE_TYPES_LIST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela lista tipos de ausencia CATS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COST_CENTER_LIST</CMPNAME>
+     <SCONAME>ET_COST_CENTER_LIST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela lista centros de custo CATS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROJECT_LIST</CMPNAME>
+     <SCONAME>ET_PROJECT_LIST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela lista de projetos CATS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROJECT_PROFILES</CMPNAME>
+     <SCONAME>ET_PROJECT_PROFILES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela lista de perfis de projetos CATS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROJECT_TYPES</CMPNAME>
+     <SCONAME>ET_PROJECT_TYPES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela lista de tipos de projetos CATS</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

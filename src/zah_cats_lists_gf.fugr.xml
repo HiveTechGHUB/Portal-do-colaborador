@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo funçoes serviço listas do cats</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_CATS_LISTS_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_CATS_LISTS_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_CATS_LISTS_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web service listas do cats</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PROJECT_LIST</PARAMETER>
+       <TYP>ZAH_TT_PROJECT_LIST</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_COST_CENTER_LIST</PARAMETER>
+       <TYP>ZAH_TT_COST_CENTER_LIST</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_ABSTENCE_TYPES_LIST</PARAMETER>
+       <TYP>ZAH_TT_ABSTENCE_TYPES_LIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_PROJECT_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela lista de projetos CATS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_COST_CENTER_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela lista centros de custo CATS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ABSTENCE_TYPES_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela lista tipos de ausencia CATS</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

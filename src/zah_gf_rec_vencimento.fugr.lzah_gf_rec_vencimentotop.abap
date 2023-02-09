@@ -1,0 +1,3 @@
+FUNCTION-POOL ZAH_GF_REC_VENCIMENTO.        "MESSAGE-ID ..
+
+* INCLUDE LZAH_GF_REC_VENCIMENTOD...         " Local class definition

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_DIR</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para gerar a DIR(Declaração Individual de Rendimento)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>O colaborador não possui DIR</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_ACTIVE_EMPLOYEES_BY_YEAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Valida se os nº de colaborador estão ativos ao ano indicado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COLAB_DIR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obter o PDF da DIR dos colaboradores num determinado ano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COMPANY_AT_YEAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recolhe a empresa dos colaboradores a um ano indicado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DIR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem a DIR  de um colaborador</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEES_BY_YEAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recolhe todos os colaboradores ativos a um ano indicado</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>CT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>IT_NON_EXISTING_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>IT_NUM_EMP_NOT_ACTIVE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>IV_ANO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_DIR</CMPNAME>
+     <SCONAME>CT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_DIR</CMPNAME>
+     <SCONAME>ET_DIR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para retorno da DIR</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_DIR</CMPNAME>
+     <SCONAME>IV_ANO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_AT_YEAR</CMPNAME>
+     <SCONAME>ET_COMPANY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela para recolher a empresa de cada colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_AT_YEAR</CMPNAME>
+     <SCONAME>IT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_AT_YEAR</CMPNAME>
+     <SCONAME>IV_ANO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIR</CMPNAME>
+     <SCONAME>ES_DIR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para retorno da DIR</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIR</CMPNAME>
+     <SCONAME>IV_ANO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIR</CMPNAME>
+     <SCONAME>IV_COMPANY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Empresa</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIR</CMPNAME>
+     <SCONAME>IV_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº pessoal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>ET_ALL_PERNR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEES_BY_YEAR</CMPNAME>
+     <SCONAME>IV_ANO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

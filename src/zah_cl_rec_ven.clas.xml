@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAH_CL_REC_VEN</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para gerar o recibo de vencimento</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_ACTIVE_EMP_BY_MONTH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Valida se os nº de colaborador estão ativos ao mês indicado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_OTF_TO_PDF</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Converte um otf para pdf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COLAB_RECIBO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obter o PDF do recibo de vencimento num determinado período</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEES_BY_MONTH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recolhe todos colaboradores ativos num mês e ano indicados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PAYMENT_AMOUNT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Calcula o montante de pagamento, deduções e bonus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PAYROLL_RESULT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Recolhe os dados do cluster salarial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_RECIBO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Gera o recibo do colaborador</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_FIRST_DAY_MONTH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Primeiro dia do mês</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_LAST_DAY_MONTH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ultimo dia do mês</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMP_BY_MONTH</CMPNAME>
+     <SCONAME>CT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMP_BY_MONTH</CMPNAME>
+     <SCONAME>IT_NON_EXISTING_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_ACTIVE_EMP_BY_MONTH</CMPNAME>
+     <SCONAME>IT_NUM_EMP_NOT_ACTIVE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_ANO_RECIBO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ano cálculo folhas de pagamento p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MES_RECIBO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Período proc.FlhPgto.p/determinação período</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_OTF_TO_PDF</CMPNAME>
+     <SCONAME>EV_PDF_BASE64</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Símbolo codificado com Base64</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_OTF_TO_PDF</CMPNAME>
+     <SCONAME>IT_OTFDATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Smart Form: tabela OTF</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_RECIBO</CMPNAME>
+     <SCONAME>CT_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLAB_RECIBO</CMPNAME>
+     <SCONAME>ET_RECIBO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de retorno do recibo de vencimento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEES_BY_MONTH</CMPNAME>
+     <SCONAME>ET_ALL_PERNR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYMENT_AMOUNT</CMPNAME>
+     <SCONAME>EV_BONUS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYMENT_AMOUNT</CMPNAME>
+     <SCONAME>EV_DEDUCOES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYMENT_AMOUNT</CMPNAME>
+     <SCONAME>EV_MONTANTE_PAGAMETO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYMENT_AMOUNT</CMPNAME>
+     <SCONAME>EV_REMUNERACOES_BRUTAS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYROLL_RESULT</CMPNAME>
+     <SCONAME>ET_PAY_RESULT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura p/res.cálculo FlhPgto.: internacional</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PAYROLL_RESULT</CMPNAME>
+     <SCONAME>IV_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tabela de importação/exportação do número de colaborador</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RECIBO</CMPNAME>
+     <SCONAME>ES_RECIBO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de retorno do recibo de vencimento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RECIBO</CMPNAME>
+     <SCONAME>IS_PAYROLL_RESULTS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura p/res.cálculo FlhPgto.: internacional</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RECIBO</CMPNAME>
+     <SCONAME>IV_NUM_EMP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº pessoal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

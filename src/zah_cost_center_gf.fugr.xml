@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>grupo funçoes lista centros de custo</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_COST_CENTER_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_COST_CENTER_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_COST_CENTER_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web service lista centros de custo</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_COST_CENTER_LIST</PARAMETER>
+       <TYP>ZAH_TT_COST_CENTER_LIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_COST_CENTER_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela lista centros de custo CATS</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

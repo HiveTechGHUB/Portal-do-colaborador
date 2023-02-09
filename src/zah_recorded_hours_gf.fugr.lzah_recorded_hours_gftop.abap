@@ -1,0 +1,3 @@
+FUNCTION-POOL ZAH_RECORDED_HOURS_GF.        "MESSAGE-ID ..
+
+* INCLUDE LZAH_RECORDED_HOURS_GFD...         " Local class definition

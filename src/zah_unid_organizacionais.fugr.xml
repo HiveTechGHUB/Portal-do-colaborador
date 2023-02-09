@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ID&apos;s e Unidades Organizacionais</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_UNID_ORGANIZACIONAISTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_UNID_ORGANIZACIONAIS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_UNID_ORGANIZACIONAIS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Serviço - Id&apos;s e Unidades Organizacionais</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EXP_UNID_ORG</PARAMETER>
+       <TYP>ZAH_TT_UNID_ORGANIZACIONAIS</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EXP_UNID_ORG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Utilizado para a recolha de IDs e descrições organizacionais</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

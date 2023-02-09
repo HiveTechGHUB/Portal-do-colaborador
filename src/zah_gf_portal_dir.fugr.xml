@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de função para DIR do portal</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAH_GF_PORTAL_DIRTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAH_GF_PORTAL_DIR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAH_PORTAL_DIR</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>WebService da DIR para o portal da AzoresHive</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_NUM_EMP</PARAMETER>
+       <TYP>ZAH_TT_NUM_EMP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ANO</PARAMETER>
+       <TYP>PNPPABRJ</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_DIR</PARAMETER>
+       <TYP>ZAH_TT_DIR_RETURN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NUM_EMP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tabela de importação/exportação do número de colaborador</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ANO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ano cálculo folhas de pagamento p/determinação período</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_DIR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para retorno da DIR</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
