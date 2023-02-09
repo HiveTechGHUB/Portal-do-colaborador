@@ -1,5 +1,5 @@
 # Portal-do-colaborador
->🔎[PROJETO] 
+> 🔎[PROJETO] 
 
-#🎯 Resumo
+# 🎯 Resumo
 Desenvolvimento de um Website em Outsystems com integração à SAP R/3
